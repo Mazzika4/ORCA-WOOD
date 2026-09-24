@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" role="img" aria-labelledby="title desc">
-<title id="title">ORCA</title><desc id="desc">شعار ORCA</desc>
-<rect width="520" height="180" rx="24" fill="#211e1b"/>
-<circle cx="105" cy="90" r="54" fill="none" stroke="#d9b38c" stroke-width="8"/>
-<path d="M74 92c17-32 50-32 68 0-18 30-51 30-68 0Z" fill="none" stroke="#b4532a" stroke-width="8"/>
-<circle cx="108" cy="88" r="7" fill="#f6f4f0"/>
-<text x="175" y="112" fill="#f6f4f0" font-family="Arial,sans-serif" font-size="78" font-weight="700" letter-spacing="8">ORCA</text>
-</svg>

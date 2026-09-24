@@ -42,14 +42,14 @@ textarea{min-height:64px;resize:vertical}
 a{color:var(--ac)}
 .lnk{border:0;background:none;color:var(--ac);padding:0;text-decoration:underline;cursor:pointer}
 td.nt{white-space:normal;min-width:200px;max-width:260px}
-.brand{background:#211e1b;border-radius:12px;padding:16px;margin-bottom:16px;display:flex;justify-content:center}
-.brand img{height:90px;max-width:100%;object-fit:contain}
+.brand{background:#050505;border-radius:12px;padding:20px 12px;margin-bottom:18px;display:flex;justify-content:center;align-items:center}
+.brand img{display:block;width:min(760px,90vw);height:auto;object-fit:contain;filter:drop-shadow(0 0 12px rgba(255,255,255,.08))}
 </style>
 <base target="_blank">
 </head>
 <body>
 <div class="wrap">
-<div class="brand"><img alt="ORCA" src="https://k.top4top.io/p_3919kz1mt1.png" style="height:90px;max-width:100%;object-fit:contain;"></div>
+<div class="brand"><img alt="ORCA" src="https://k.top4top.io/p_3919kz1mt1.png"></div>
 
 <h1>جدول متابعة العملاء</h1>
 <p class="sub">التصميم · التعاقد · التصنيع · التوريد · التركيب · الدفعات</p>
@@ -81,7 +81,7 @@ td.nt{white-space:normal;min-width:200px;max-width:260px}
 <div class="form">
 <label>تاريخ الدفعة التانية<input id="p2date" type="date"></label>
 <label>الدفعة التانية<select id="p2s"><option value="0">لم تتم</option><option value="1">تمت</option></select></label>
-<label>قيمة الدفعة ��لتانية<input id="p2amt" type="number" inputmode="decimal" min="0" placeholder="0"></label>
+<label>قيمة الدفعة التانية<input id="p2amt" type="number" inputmode="decimal" min="0" placeholder="0"></label>
 <label>تاريخ الدفعة الأخيرة<input id="p3date" type="date"></label>
 <label>الدفعة الأخيرة<select id="p3s"><option value="0">لم تتم</option><option value="1">تمت</option></select></label>
 <label>قيمة الدفعة الأخيرة<input id="p3amt" type="number" inputmode="decimal" min="0" placeholder="0"></label>
